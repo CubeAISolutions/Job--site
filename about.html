@@ -16,18 +16,15 @@
     <link rel="stylesheet" href="css/quill.snow.css">
     
 
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="css/style.css">    
   </head>
-  <body id="top">
-
-  <div id="overlayer"></div>
-  <div class="loader">
-    <div class="spinner-border text-primary" role="status">
-      <span class="sr-only">Loading...</span>
-    </div>
-  </div>
-    
+  <body id="top">    
 
 <div class="site-wrap">
 
@@ -49,16 +46,17 @@
 
           <nav class="mx-auto site-navigation">
             <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
-              <li><a href="index.html" class="nav-link">Home</a></li>
-              <li><a href="about.html" class="active">About</a></li>
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="about.html">About</a></li>
               <li class="has-children">
-                <a href="job-listings.html">Job Listings</a>
+                <a>Job Listings</a>
                 <ul class="dropdown">
-                  <li><a href="job-single.html">Job Single</a></li>
-                  <li><a href="post-job.html">Post a Job</a></li>
+                  <li><a href="jobsingle.html">Job Single</a></li>
+                  <li><a href="postjob.html">Post a Job</a></li>
                 </ul>
               </li>
-              <li class="has-children">
+
+              <!-- <li class="has-children">
                 <a href="services.html">Pages</a>
                 <ul class="dropdown">
                   <li><a href="services.html">Services</a></li>
@@ -70,17 +68,18 @@
                   <li><a href="faq.html">Frequently Ask Questions</a></li>
                   <li><a href="gallery.html">Gallery</a></li>
                 </ul>
-              </li>
-              <li><a href="blog.html">Blog</a></li>
+              </li> -->
+
+              <!-- <li><a href="blog.html">Blog</a></li> -->
               <li><a href="contact.html">Contact</a></li>
-              <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
+              <li class="d-lg-none"><a href="postjob.html"><span class="mr-2">+</span> Post a Job</a></li>
               <li class="d-lg-none"><a href="login.html">Log In</a></li>
             </ul>
           </nav>
           
           <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
             <div class="ml-auto">
-              <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Post a Job</a>
+              <a href="postjob.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Post a Job</a>
               <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>Log In</a>
             </div>
             <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
@@ -91,7 +90,7 @@
     </header>
 
     <!-- HOME -->
-    <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+    <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/new/bg-f.jpg');" id="home-section">
       <div class="container">
         <div class="row">
           <div class="col-md-7">
@@ -105,12 +104,13 @@
       </div>
     </section>
 
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next-section" style="background-image: url('images/hero_1.jpg');">
+
+    <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
       <div class="container">
         <div class="row mb-5 justify-content-center">
           <div class="col-md-7 text-center">
-            <h2 class="section-title mb-2 text-white">JobBoard Site Stats</h2>
-            <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis recusandae sequi excepturi corrupti.</p>
+            <h2 class="section-title mb-2 text-white">JobBoard </h2>
+            <p class="lead text-white">  Find your dream job now   </p>
           </div>
         </div>
         <div class="row pb-0 block__19738 section-counter">
@@ -147,7 +147,6 @@
         </div>
       </div>
     </section>
-
     
     <section class="site-section pb-0">
       <div class="container">
@@ -157,9 +156,18 @@
           </div>
           <div class="col-lg-6 ml-auto">
             <h2 class="section-title mb-3">JobBoard For Freelancers, Web Developers</h2>
-            <p class="lead" style="font-size: 1rem;"> 
+            <p class="lead" style="font-size: 1.25rem;"> 
 
-                Got a project in mind and need a freelance web developer to knock it out of the park? You’ve hit the jackpot! Our team’s stacked with experienced devs who know their way around making websites that not only pop visually but also work like a charm on any device. <br> 
+                Got a project in mind and need a freelance web developer to knock it out of the park? You’ve hit the jackpot! Our team’s stacked with experienced devs who know their way around making websites that not only pop visually but also work like a charm on any device. 
+
+                   </p>
+          </div>
+        </div>
+        <div class="row align-items-center" style="margin-top: 15px;">
+        
+          <div class="col-lg-12 ml-auto">
+         
+            <p class="lead" style="font-size: 1.25rem;"> 
 
                 No matter if it’s a straightforward landing page, a full-blown e-commerce site, or something in the middle, we’ve got your back. Our devs are all about quality, meeting deadlines, and sticking to your budget. Plus, we love working together with you to make sure what we build is exactly what you wanted — maybe even better. <br> 
 
@@ -173,6 +181,8 @@
       </div>
     </section>
 
+
+
     <section class="site-section pt-0" style="margin-top: 50px;">
       <div class="container">
         <div class="row align-items-center">
@@ -181,15 +191,29 @@
           </div>
           <div class="col-lg-5 mr-auto order-md-1  mb-5 mb-lg-0">
             <h2 class="section-title mb-3">JobBoard For Workers</h2>
-            <p class="lead">Eveniet voluptatibus voluptates suscipit minima, cum voluptatum ut dolor, sed facere corporis qui, ea quisquam quis odit minus nulla vitae. Sit, voluptatem.</p>
-            <p>Ipsum harum assumenda in eum vel eveniet numquam, cumque vero vitae enim cupiditate deserunt eligendi officia modi consectetur. Expedita tempora quos nobis earum hic ex asperiores quisquam optio nostrum sit!</p>
+
+            <p class="lead" style="font-size: 1.25rem;"> 	Check out our job board! It's packed with awesome gigs across a bunch of fields - think building stuff, making things, looking after folks, or serving up some hospitality.  <br> 
+
+              </p>
+           
+          </div>
+        </div>
+        <div class="row align-items-center" style="margin-top: 15px;">
+         
+          <div class="col-lg-12 mr-auto order-md-1  mb-5 mb-lg-0">
+          
+
+            <p class="lead" style="font-size: 1.25rem;">    Looking for your first job or aiming higher? We've got something for everyone - carpenters, sparkies, nurses, chefs, you name it, we have a spot that fits what you're good at.    <br>   We team up with top-notch companies that really look after their people, offering sweet pay, benefits, and chances to climb the career ladder. And our site? Super easy to use so you can apply for jobs in a snap.
+
+              Ready to level up your career? Dive into our job board, find your next adventure, and join our crew of go-getters today! </p>
+           
           </div>
         </div>
       </div>
     </section>
 
    
-    <section class="site-section">
+    <!-- <section class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center" data-aos="fade">
@@ -231,7 +255,173 @@
             </div>
           </div>
       </div>
+    </section> -->
+
+
+    <section class="ourteam">
+
+      <div class="py-5 team4">
+        <div class="container">
+          <div class="row justify-content-center mb-4">
+            <div class="col-md-7 text-center">
+              <h3 class="mb-3">Experienced &amp; Professional Team</h3>
+              <h5 class="subtitle">
+                Our team is all about skill and commitment, always delivering the best results.
+              </h5>
+            </div>
+          </div>
+          <div class="row">
+            <!-- column  -->
+            <div class="col-lg-3 mb-4">
+              <!-- Row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t1.jpg" alt="wrapkit" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="pt-2">
+                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                    <h6 class="subtitle mb-3">Property Specialist</h6>
+                    <p>
+                      You can relay on our amazing features list and also our
+                      customer services will be great experience.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"> <i class="fa fa-linkedin" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa fa-twitter" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-instagram" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Row -->
+            </div>
+            <!-- column  -->
+            <!-- column  -->
+            <div class="col-lg-3 mb-4">
+              <!-- Row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t2.jpg" alt="wrapkit" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="pt-2">
+                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                    <h6 class="subtitle mb-3">Property Specialist</h6>
+                    <p>
+                      You can relay on our amazing features list and also our
+                      customer services will be great experience.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"> <i class="fa fa-linkedin" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa fa-twitter" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-instagram" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Row -->
+            </div>
+            <!-- column  -->
+            <!-- column  -->
+            <div class="col-lg-3 mb-4">
+              <!-- Row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t3.jpg" alt="wrapkit" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="pt-2">
+                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                    <h6 class="subtitle mb-3">Property Specialist</h6>
+                    <p>
+                      You can relay on our amazing features list and also our
+                      customer services will be great experience.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"> <i class="fa fa-linkedin" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa fa-twitter" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-instagram" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Row -->
+            </div>
+            <!-- column  -->
+            <!-- column  -->
+            <div class="col-lg-3 mb-4">
+              <!-- Row -->
+              <div class="row">
+                <div class="col-md-12">
+                  <img src="https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/team/t4.jpg" alt="wrapkit" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="pt-2">
+                    <h5 class="mt-4 font-weight-medium mb-0">Michael Doe</h5>
+                    <h6 class="subtitle mb-3">Property Specialist</h6>
+                    <p>
+                      You can relay on our amazing features list and also our
+                      customer services will be great experience.
+                    </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a href="#"> <i class="fa fa-linkedin" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#">
+                          <i class="fa fa-twitter" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                      <li class="list-inline-item">
+                        <a href="#"><i class="fa fa-instagram" style="font-size:36px; color: rgba(151, 66, 119, 0.7);
+  ;"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- Row -->
+            </div>
+          </div>
+        </div>
+      </div>
+
     </section>
+
+
+
 
     <footer class="site-footer">
 
