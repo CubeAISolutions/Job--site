@@ -160,12 +160,10 @@
                   <div class="dropdown-menu " role="combobox"><div class="bs-searchbox"><input type="text" class="form-control" autocomplete="off" role="textbox" aria-label="Search"></div><div class="inner show" role="listbox" aria-expanded="false" tabindex="-1"><ul class="dropdown-menu inner show"></ul></div></div></div>
                 </div>
   
-  
-                <div class="form-group">
-                  <label for="job-description">Job Description</label>
-               
-                </div>
-  
+                <form action="/action_page.php">
+                  <p><label for="Description">Job Description:</label></p>
+                  <textarea id="jobdesc"  rows="12" cols="102">Write Job Description!</textarea>
+                  </form>
   
                 <h3 class="text-black my-5 border-bottom pb-2">Company Details</h3>
                 <div class="form-group">
@@ -178,11 +176,11 @@
                   <input type="text" class="form-control" id="company-tagline" placeholder="e.g. New York">
                 </div>
   
-                <div class="form-group">
-                  <label for="job-description">Company Description (Optional)</label>
-               
-                </div>
-                
+                <form action="/action_page.php">
+                  <p><label for="Description">Company Description (Optional)</label></p>
+                  <textarea id="jobdesc"  rows="12" cols="102">Description</textarea>
+                  </form>
+
                 <div class="form-group">
                   <label for="company-website">Website (Optional)</label>
                   <input type="text" class="form-control" id="company-website" placeholder="https://">
