@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <!-- font awesome cdn link -->
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/style-login.css">
+
+    
+
+    <!------ Include the above in your HEAD tag ---------->
+   
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      /* Additional styling for responsiveness */
+      @media (max-width: 768px) {
+          .login-reg-panel {
+              display: flex;
+              flex-direction: column;
+          }
+          .login-info-box, .register-info-box {
+              width: 100%;
+              text-align: center;
+          }
+          .white-panel {
+              width: 100%;
+              margin-top: 20px;
+          }
+      }
+  </style>
+  </head>
+  <body>
+
+
+
+    <div class="login-reg-panel">
+      <div class="login-info-box">
+        <h1>Login by Candidates</h1>
+         <label id="label-register" for="log-reg-show">click here</label>
+        <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+        
+      </div>
+      
+                
+      <div class="register-info-box">
+        <div>
+    <h1>Login by job seekers</h1>
+      </div>
+      <div>
+    <label id="label-login" for="log-login-show">click here</label>
+    <input type="radio" name="active-log-panel" id="log-login-show">
+    </div>
+</div>
+    
+                
+      <div class="white-panel">
+        <div class="login-show">
+          <h2>Login by jobseekers</h2>
+         
+        <input type="text" placeholder="Email">
+          <input type="password" placeholder="Password">
+           <input type="button" value="Login">
+           <div class="social_icon">
+            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+             <a href="#" target="_blank"><i class="fab fa-google"></i></a>
+           <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div class="hi">
+            <div>
+            <a href="#">Forgot Password</a>
+            </div>
+            <div>
+            <span >Don't Have an Account?</span>
+           <a href="#" class="create-account">Create New Account Now</a>
+        </div>
+        </div>
+        </div>
+        <div class="register-show">
+          <h2>Login by Employeers</h2>
+          <input type="text" placeholder="Email">
+          <input type="password" placeholder="Password">
+        <input type="button" value="Login">
+        <div class="social_icon">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+           <a href="#" target="_blank"><i class="fab fa-google"></i></a>
+         <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="hi">
+          <div>
+          <a href="#">Forgot Password</a>
+          </div>
+         <br>
+          <span >Don't Have an Account?</span>
+         <a href="#" class="create-account">Create New Account Now</a>
+      
+      </div>
+       
+      </div>
+        </div>
+        
+      
+    </div>
+    <script src="js/login-js.js"></script>
+    <script src="js/login-main.js"></script>
+  </body>
+</html>

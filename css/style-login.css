@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,700");
+body{
+  font-family:'icomoon' ;
+	height:100vh;
+	min-height:550px;
+	background-image: url(hero_1.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:center;
+	position:relative;
+    overflow-y: hidden;
+}
+a{
+  text-decoration:none;
+  color:#444444;
+}
+.login-reg-panel{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+	text-align:center;
+    width:70%;
+	right:0;left:0;
+    margin:auto;
+    height:400px;
+    background-color:blue;
+}
+.white-panel{
+    background-color: rgba(255,255, 255, 1);
+    height:500px;
+    position:absolute;
+    top:-50px;
+    width:50%;
+    right:calc(50% - 50px);
+    transition:.3s ease-in-out;
+    z-index:0;
+    box-shadow: 0 0 15px 9px #00000096;
+}
+.login-reg-panel input[type="radio"]{
+    position:relative;
+    display:none;
+}
+.login-reg-panel{
+    color:whitesmoke;
+}
+.login-reg-panel #label-login{
+    border:3px solid white;
+    padding:5px 5px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+#label-register{
+    color: blue;
+    padding:5px 5px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.login-reg-panel #label-register{
+    border:3px solid blue;
+    padding:5px 5px;
+    width:150px;
+    display:block;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.login-info-box{
+    width:30%;
+    padding:0 50px;
+    top:30%;
+    left:1;
+    position:absolute;
+    text-align:left;
+}
+.register-info-box{
+    width:30%;
+    padding:0 50px;
+    top:20%;
+    right:0;
+    position:absolute;
+    text-align:left;
+    
+}
+.right-log{right:50px !important;}
+
+.login-show, 
+.register-show{
+    z-index: 1;
+    display:none;
+    opacity:0;
+    transition:0.3s ease-in-out;
+    color:#242424;
+    text-align:left;
+    padding:50px;
+}
+.show-log-panel{
+    display:block;
+    opacity:0.9;
+}
+.login-show input[type="text"], .login-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 3px solid blue;
+    outline: none;
+}
+.login-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background:blue;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+    cursor:pointer;
+}
+.login-show a{
+    display:inline-block;
+    padding:10px 0;
+}
+
+.register-show input[type="text"], .register-show input[type="password"]{
+    width: 100%;
+    display: block;
+    margin:20px 0;
+    padding: 15px;
+    border: 3px solid blue;
+    outline: none;
+}
+.register-show input[type="button"] {
+    max-width: 150px;
+    width: 100%;
+    background: blue;
+    color: black;
+    border: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    float:right;
+    cursor:pointer;
+}
+.credit {
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    color: #3B3B25;
+    margin: 0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    z-index: 99;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+     margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color:blue;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .btn {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: blue; /* Adjust color as needed */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .social_icon a {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between icons */
+    width: 50px; /* Set width of each icon */
+    height: 50px; /* Set height of each icon */
+    line-height: 40px; /* Center the icon vertically */
+    text-align: center; /* Center the icon horizontally */
+    border-radius: 50%; /* Make the icon circular */
+    background-color: white; /* Background color of the icon */
+    color: #aaa; /* Color of the icon */
+    font-size: 20px; /* Size of the icon */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+    border: 2px solid blue; /* Transparent border */
+  }
+  
+  .social_icon a:hover {
+    background-color: blue; /* Background color on hover */
+    border-color: blue; /* Border color on hover */
+  }
+  
+  
+  /* Style for the "Forgot password?" link */
+  .forgot-password {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dont-have-account {
+    color:gray;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.create-account {
+    color:blue;
+}
+.hi {
+  text-align: center;
+  padding-top: 40px;
+}
+/* .login-info-box h1 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.register-info-box {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+
+
+/* .register-info-box h2 {
+    margin-right: 10px; /* Add some space between the h2 and the label */
+*/ */
+.login-reg-panel {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.register-info-box {
+    width: 45%;
+    padding: 20px;
+    border: 3px solid white;
+    text-align: justify;
+}
+.login-info-box {
+    width: 45%;
+    padding: 20px;
+    border: 3px solid blue;
+    text-align: justify;
+}
+
+
+.register-info-box h2 {
+    margin-bottom: 10px;
+    color: white;
+    
+}
+.login-info-box h1{
+    margin-bottom: 10px;
+    color: blue;
+
+}
+
+.login-info-box label,
+.register-info-box label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-info-box input[type="radio"],
+.register-info-box input[type="radio"] {
+    display: none;
+}
+
+#log-reg-show:checked ~ .login-info-box,
+#log-login-show:checked ~ .register-info-box {
+    display: block;
+}
+.login-reg-panel {
+    background: linear-gradient(135deg,blue,white,blue, skyblue);
+    /* Other existing styles */
+}
+
+.white-panel {
+    background: rgba(255, 255, 255, 0.95);
+    /* Other existing styles */
+}
