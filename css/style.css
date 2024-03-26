@@ -2446,5 +2446,7 @@ a{
     color: #084a62;
     font-size: 20px;
   }
-  
+  .logo:hover {
+    filter: invert(0.4) sepia(1) saturate(20) hue-rotate(316.8deg) brightness(1.11);
+    }
  
